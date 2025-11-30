@@ -4,7 +4,7 @@
 
 This repository contains the implementation of a hybrid quantum–classical workflow designed for accurate molecular ground-state electronic structure simulation.
 
-Our project focuses on demonstrating the sample-based quantum diagonalization (SQD) algorithm, which effectively addresses the limitations of today's noisy quantum hardware by offloading complexity to classical post-processing. The notebook in this repository is largely based on the nitrogen implementation in the [qiskit-addon-sqd](https://github.com/Qiskit/qiskit-addon-sqd) repository.
+Our project focuses on demonstrating the sample-based quantum diagonalisation (SQD) algorithm, which effectively addresses the limitations of today's noisy quantum hardware by offloading complexity to classical post-processing. The notebook in this repository is largely based on the nitrogen implementation in the [qiskit-addon-sqd](https://github.com/Qiskit/qiskit-addon-sqd) repository.
 
 We applied this method to the lithium hydride molecule to showcase how to achieve energy estimates approaching chemical accuracy for quantum chemistry problems.
 
@@ -34,8 +34,8 @@ This repository executes a two-part workflow:
 
 * **Configuration recovery:** Impose selection rules and reweight amplitudes
 * **Reconstruction:** The measurement samples are used to reconstruct an effective low-dimensional Hamiltonian matrix.
-* **Diagonalization:** This effective Hamiltonian is classically diagonalised and is fed back into the algorithm to iteratively refine the ground-state energy value and extract electron configuration information.
-![Alt text](./state_spaces.png)
+* **Diagonalisation:** This effective Hamiltonian is classically diagonalised and is fed back into the algorithm to iteratively refine the ground-state energy value and extract electron configuration information.
+![Alt text](./state_refinement.png)
 
 ---
 
