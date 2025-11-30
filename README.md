@@ -37,7 +37,7 @@ This repository executes a two-part workflow:
 * **Diagonalisation:** This effective Hamiltonian is classically diagonalised and is fed back into the algorithm to iteratively refine the ground-state energy value and extract electron configuration information.
 
 <p align="center">
-  <img src="space_refinement.png">
+  <img src="space_refinement.png" width="300">
 </p>
 
 ---
