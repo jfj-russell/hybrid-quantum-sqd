@@ -47,16 +47,15 @@ To run this simulation, you will use your **WSL Ubuntu environment** to manage t
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/jfj-russell/hybrid-quantum-sqd.git](https://github.com/YourUsername/hybrid-quantum-sqd.git)
+    git clone https://github.com/jfj-russell/hybrid-quantum-sqd.git
     cd hybrid-quantum-sqd
     ```
+
 2.  **Create and Activate Virtual Environment:**
     If you haven't already, create and activate a virtual environment within your Ubuntu terminal.
 
     ```bash
-    # Create the virtual environment in the project directory
     python3 -m venv .venv 
-    # Activate the environment
     source .venv/bin/activate 
     ```
 
