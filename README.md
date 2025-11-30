@@ -35,7 +35,10 @@ This repository executes a two-part workflow:
 * **Configuration recovery:** Impose selection rules and reweight amplitudes
 * **Reconstruction:** The measurement samples are used to reconstruct an effective low-dimensional Hamiltonian matrix.
 * **Diagonalisation:** This effective Hamiltonian is classically diagonalised and is fed back into the algorithm to iteratively refine the ground-state energy value and extract electron configuration information.
-![Alt text](./space_refinement.png)
+
+<p align="center">
+  <img src="state_refinement.png">
+</p>
 
 ---
 
