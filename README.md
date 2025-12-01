@@ -44,7 +44,7 @@ This repository executes a two-part workflow:
 
 ### How to Run the Code (Using WSL/Ubuntu)
 
-To run this simulation, you will use your **WSL Ubuntu environment** to manage the Python virtual environment and execute the scripts.
+To run this simulation, you will use the WSL Ubuntu environment to manage the Python virtual environment and execute the scripts.
 
 #### Prerequisites
 
@@ -72,7 +72,7 @@ To run this simulation, you will use your **WSL Ubuntu environment** to manage t
 
 #### Execution Workflow
 
-To activate your environment and start working within **WSL Ubuntu**:
+To activate your environment and start working within WSL Ubuntu:
 
 **Launch WSL and Activate Environment (from PowerShell/CMD):**
 ```powershell
