@@ -26,7 +26,7 @@ This repository executes a two-part workflow:
 
 #### 1. Quantum Step (collect samples)
 
-* **Initialisation:** We use the Coupled Cluster Singles and Doubles (CCSD) results to prepare an initial state using a LUCJ ansatz.
+* **Initialisation:** We use the coupled cluster singles and doubles (CCSD) results to prepare an initial state using a LUCJ ansatz.
 * **Execution:** This parameterised state is executed on IBM Quantum hardware.
 * **Output:** The code collects measurement samples (electron configurations) needed for the next step.
 
